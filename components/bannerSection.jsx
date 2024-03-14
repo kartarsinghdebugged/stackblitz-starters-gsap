@@ -53,6 +53,7 @@ const BannerSection = () => {
         <div className=' intro__title2' ref={introTitleRef}>
           <h1 className='fj-h0 fj-dark lg:fj-h0-lg ' >
             User experiences <br/> driven by real-life <br/> experiences
+            <h1>Hello</h1>
           </h1>
         </div>
         <div className='fj-right  home-ani-1 hero-animation-a-box ' >
