@@ -1,0 +1,40 @@
+/* fonts.css */
+@font-face {
+  font-family: 'GT-sectra';
+  src: url('../assets/fonts/GT-sectra-fine-book.woff2') format('woff2'),
+  url('../assets/fonts/GT-sectra-fine-book.woff') format('woff'),
+  url('../assets/fonts/GT-sectra-fine-book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GT-sectra';
+  src: url('../assets/fonts/GT-Sectra-Fine-Bold.otf') format('otf'),
+  url('../assets/fonts/GT-Sectra-Fine-Bold.ttf') format('truetype'),
+  url('../assets/fonts/GT-Sectra-Fine-Bold.woff') format('woff'),
+  url('../assets/fonts/GT-Sectra-Fine-Bold.woff2') format('woff2');  /* Adjust the path and format based on your font files */
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'klim';
+  src: url('../assets/fonts/klim-bold.woff2') format('woff2'),
+  url('../assets/fonts/klim-bold.otf') format('otf'); /* Adjust the path and format based on your font files */
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'klim';
+  src: url('../assets/fonts/klim-medium.woff2') format('woff2'),
+  url('../assets/fonts/klim-medium.otf') format('otf'); /* Adjust the path and format based on your font files */
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'klim';
+  src: url('../assets/fonts/klim-regular.woff2') format('woff2'),
+  url('../assets/fonts/klim-regular.otf') format('otf'); /* Adjust the path and format based on your font files */
+  font-weight: 400;
+  font-style: normal;
+}
+/* Add more @font-face rules for different font weights or styles */
